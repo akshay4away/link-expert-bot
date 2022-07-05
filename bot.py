@@ -53,14 +53,14 @@ def button(update,context):
         uri=unshortener.unshorten(link)
         query.edit_message_text(text="Unshorted url 👇🏼 : \n"+str(uri))
     if a=="short":
-        response=s.bitly.short(link)
+        response=s.short-jambo.com.short(link)
         query.edit_message_text("Shorted url 👇🏼:\n"+str(response))
 
 
 def inlinequery(update,context):
 	query = update.inline_query.query
 	###for short links#######
-	shortlink=s.bitly.short(query)
+	shortlink=s.short-jambo.com.short(query)
 	#####for unshort link####$#$
 	unshortener=UnshortenIt()
 	unshortlink=unshortener.unshorten(query)
