@@ -30,7 +30,7 @@ OR
 
 * Clone this repository using
 ```sh
-$ git clone https://github.com/amit-y11/link-expert-bot
+$ git clone https://github.com/akshay4away/link-expert-bot
 ```
 * Enter the directory and install all the requirements using
 ```sh
